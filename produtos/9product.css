@@ -1,8 +1,9 @@
 @media screen and (max-width: 1080px){
     #per9{
-        max-height: 300px;
-        max-width: 310px;
-        padding-right: 10px;
+        margin-right: -150px;
+        max-height: 500px;
+        max-width: 510px;
+        padding: 50px;
         top: -50px;
     }
     .price{
@@ -10,5 +11,6 @@
     }
     .data{
         margin-top: 5px;
-      }
+    }
+
 }
