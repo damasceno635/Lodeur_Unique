@@ -192,8 +192,8 @@ main {
   transform: rotate(180deg);
 }
 
-/*===== Sneaker =====*/
-.sneaker {
+/*===== figure =====*/
+.figure {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -202,7 +202,7 @@ main {
   position: relative;
 }
 
-.sneaker__figure {
+.figure__figure {
   width: 240px;
   height: 240px;
   background-color: black;
@@ -210,7 +210,7 @@ main {
   transition: .5s;
 }
 
-.sneaker__img {
+.figure__img {
   width: 313px;
   position: absolute;
   top: 16%;
@@ -223,7 +223,7 @@ main {
   filter: drop-shadow(0px 10px 10px rgba(17, 17, 17, 0.4));
 }
 
-.sneaker__img.shows {
+.figure__img.shows {
   opacity: 1;
 }
 
@@ -324,16 +324,16 @@ main {
     row-gap: 1.5rem;
   }
 
-  .sneaker__figure {
+  .figure__figure {
     width: 210px;
     height: 210px;
   }
 
-  .sneaker img {
+  .figure img {
     width: 230px;
   }
 
-  .sneaker__colors {
+  .figure__colors {
     right: 1%;
   }
 
@@ -362,15 +362,15 @@ main {
     row-gap: 0;
   }
 
-  .sneaker {
+  .figure {
     margin-top: 0;
   }
 
-  .sneaker__colors {
+  .figure__colors {
     right: -10%;
   }
 
-  .sneaker__img {
+  .figure__img {
     left: -6%;
   }
 
@@ -407,26 +407,26 @@ main {
     display: none;
   }
 
-  .sneaker {
+  .figure {
     margin: 0;
   }
 
-  .sneaker__figure {
+  .figure__figure {
     width: 430px;
     height: 430px;
   }
 
-  .sneaker__img {
+  .figure__img {
     width: 550px;
     top: -8%;
   }
 
-  .sneaker__colors {
+  .figure__colors {
     right: initial;
     bottom: -3rem;
   }
 
-  .sneaker__colors span {
+  .figure__colors span {
     display: inline-block;
   }
 
@@ -494,10 +494,10 @@ main {
     margin-left: -10px;
     margin-right: 10px;
   }
-  .sneaker{
+  .figure{
     margin-top: -30px;
   }
-  .sneaker img{
+  .figure img{
     height: 310px;
     width: 300px;
     margin-right: -35px;
